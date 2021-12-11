@@ -35,3 +35,5 @@ este ejemplo atacaria al equipo local hacia el puerto 8000 usando 20 hilos y 10 
 	  -dir DIRECTORIO, --directorio DIRECTORIO
 	                        atacar algun directorio en especial del servidor
 -----------------------------------------------------------------------------------------
+
+para el ataque tor, debe a ver un proxy tor SOCKS5 corriendo en la maquina local en el puerto 9050.
