@@ -5,6 +5,6 @@ script de python que permite usar conexiones cebollas para atacar paginas .onion
 se a de ejecutar con python 2, ejemplo:
 
 -----------------------------------------------------------------------------------------
-python2 script-dos.py -ip 127.0.0.1 -t False -p 8000 -th 20 -c 10 -peticion POST -time 30
+			`python2 script-dos.py -ip 127.0.0.1 -t False -p 8000 -th 20 -c 10 -peticion POST -time 30`
 -----------------------------------------------------------------------------------------
 
