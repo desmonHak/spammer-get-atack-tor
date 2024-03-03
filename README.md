@@ -47,4 +47,5 @@ Este ejemplo atacaria al equipo local hacia el puerto 8000 usando 20 hilos y 10 
 
 ```
 Para el ataque via tor, debe a ver un proxy tor SOCKS5 corriendo en la maquina local en el puerto 9050.
+
 ----
