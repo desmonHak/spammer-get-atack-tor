@@ -12,15 +12,15 @@ Script que permite realizar conexiones cebollas para atacar paginas .onion o pag
 
 Ejemplo:
 
------------------------------------------------------------------------------------------
+
 ```python
 	python2 script-dos.py -ip 127.0.0.1 -t False -p 8000 -th 20 -c 10 -peticion GET -time 30
 ```
------------------------------------------------------------------------------------------
+
 
 Este ejemplo atacaria al equipo local hacia el puerto 8000 usando 20 hilos y 10 caracteres por peticion GET, duraria 30 segundos el ataque, el uso tor esta desactivado, para mas inrformacion ```--help```.
 
------------------------------------------------------------------------------------------
+
 ```python
 	python2  spammer-get-atack-tor.py --help
 	usage: spammer-get-atack-tor.py [-h] [-t TOR] [-ip TARGET] [-p PORT] [-th THREADS]
@@ -46,8 +46,5 @@ Este ejemplo atacaria al equipo local hacia el puerto 8000 usando 20 hilos y 10 
 	  -dir DIRECTORIO, --directorio DIRECTORIO
 
 ```
-----
-	                        atacar algun directorio en especial del servidor
------------------------------------------------------------------------------------------
-
 Para el ataque via tor, debe a ver un proxy tor SOCKS5 corriendo en la maquina local en el puerto 9050.
+----
